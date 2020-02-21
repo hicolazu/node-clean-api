@@ -17,18 +17,19 @@
     "url": "https://github.com/hicolazu/node-clean-api/issues"
   },
   "homepage": "https://github.com/hicolazu/node-clean-api#readme",
-  "dependencies": {
-    "@types/node": "^13.7.4",
-    "git-commit-msg-linter": "^2.3.11",
-    "typescript": "^3.8.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@types/node": "^13.7.4",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "eslint": "^6.8.0",
     "eslint-config-standard-with-typescript": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-node": "^9.2.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "git-commit-msg-linter": "^2.3.11",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
+    "typescript": "^3.8.2"
   }
 }
