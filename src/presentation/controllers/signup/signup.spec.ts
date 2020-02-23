@@ -1,8 +1,6 @@
 import { SignUpController } from './signup'
-import { MissingParamError, InvalidParamError, ServerError } from '../errors'
-import { EmailValidator } from '../protocols'
-import { AccountModel } from '../../domain/models/account'
-import { AddAccount, AddAccountModel } from '../../domain/usecases/add-account'
+import { MissingParamError, InvalidParamError, ServerError } from '../../errors'
+import { EmailValidator, AddAccount, AddAccountModel, AccountModel } from './signup-protocols'
 
 interface SutTypes {
   sut: SignUpController
@@ -174,16 +172,16 @@ describe('SignUpController', () => {
     const httpRequest = {
       body: {
         name: 'any_name',
-        password: 'any_password',
         email: 'any_email@gmail.com',
+        password: 'any_password',
         passwordConfirmation: 'any_password'
       }
     }
     sut.handle(httpRequest)
     expect(addSpy).toHaveBeenCalledWith({
       name: 'any_name',
-      password: 'any_password',
-      email: 'any_email@gmail.com'
+      email: 'any_email@gmail.com',
+      password: 'any_password'
     })
   })
 })
