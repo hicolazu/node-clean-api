@@ -1,0 +1,8 @@
+Dependências:
+   --> typescript 
+   --> eslint (standard.js)
+   --> prettier
+   --> husky (hooker for git commits)
+
+Commits:
+   --> Conventional Commits (pattern for commits)
