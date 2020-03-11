@@ -3,6 +3,11 @@ Dependências:
    --> eslint (standard.js)
    --> prettier
    --> husky (hooker for git commits)
+   --> git-commit-msg-linter
+   --> jest
+   --> eslint-config-standard-with-typescript
+   --> ts-jest
+   --> lint-staged
 
 Commits:
    --> Conventional Commits (pattern for commits)
