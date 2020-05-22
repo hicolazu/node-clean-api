@@ -39,7 +39,7 @@ npm run test
 👤 **Henrico Lazuroz**
 
 * Github: [@hicolazu](https://github.com/hicolazu)
-* LinkedIn: [@www.linkedin.com\/in\/henrico-lazuroz](https://linkedin.com/in/www.linkedin.com\/in\/henrico-lazuroz)
+* LinkedIn: [@henrico-lazuroz](https://linkedin.com/in/henrico-lazuroz)
 
 ## 🤝 Contributing
 
