@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/hicolazu/node-clean-api#readme",
   "dependencies": {
-    "validator": "^12.2.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "@types/jest": "^25.1.3",
